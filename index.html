@@ -3,30 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Guess My Number!</title>
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Product preview card component</title>
   </head>
   <body>
-    <header>
-      <h1>Guess My Number!</h1>
-      <p class="between">(Between 1 and 20)</p>
-      <button class="btn again">Again!</button>
-      <div class="number">?</div>
-    </header>
     <main>
-      <section class="left">
-        <input type="number" class="guess" />
-        <button class="btn check">Check!</button>
-      </section>
-      <section class="right">
-        <p class="message">Start guessing...</p>
-        <p class="label-score">💯 Score: <span class="score">20</span></p>
-        <p class="label-highscore">
-          🥇 Highscore: <span class="highscore">0</span>
+      <picture>
+        <img src="./images/image-product-desktop.jpg" alt="chanel perfume" />
+      </picture>
+      <section class="card-body">
+        <p class="product-category">PERFUME</p>
+        <h1>Gabrielle Essence Eau De Parfum</h1>
+        <p class="product-text">
+          A floral, solar and voluptuous interpretation composed by Olivier
+          Polge, Perfumer-Creator for the House of CHANEL.
         </p>
+        <div class="price-container">
+          <span class="product-discounted-price">$149.99</span>
+          <span class="product-price">$169.99</span>
+        </div>
+        <button>
+          <img src="images/icon-cart.svg" alt="cart icon" /> Add to Cart
+        </button>
       </section>
     </main>
-    <script src="script.js"></script>
   </body>
 </html>
+
+<!-- <div class="attribution">
+  Challenge by
+  <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+    >Frontend Mentor</a
+  >. Coded by <a href="#">Your Name Here</a>.
+</div> -->
