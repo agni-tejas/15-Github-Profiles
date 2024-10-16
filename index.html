@@ -12,36 +12,31 @@
       href="./images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="styles.css" />
-
-    <title>Product preview card component</title>
+    <title>Profile card component</title>
   </head>
   <body>
-    <main>
-      <picture>
-        <img src="./images/image-product-desktop.jpg" alt="chanel perfume" />
-      </picture>
-      <section class="card-body">
-        <p class="product-category">PERFUME</p>
-        <h1>Gabrielle Essence Eau De Parfum</h1>
-        <p class="product-text">
-          A floral, solar and voluptuous interpretation composed by Olivier
-          Polge, Perfumer-Creator for the House of CHANEL.
-        </p>
-        <div class="price-container">
-          <span class="product-discounted-price">$149.99</span>
-          <span class="product-price">$169.99</span>
-        </div>
-        <button>
-          <img src="images/icon-cart.svg" alt="cart icon" /> Add to Cart
-        </button>
+    <main class="card-container">
+      <section class="profile-data">
+        <picture>
+          <img src="./images/image-victor.jpg" alt="victor's avatar" />
+        </picture>
+        <h1>Victor Crest <span>26</span></h1>
+        <h2>London</h2>
       </section>
+      <div class="profile-stats">
+        <div class="stats-count">
+          <h3>80K</h3>
+          <p>Followers</p>
+        </div>
+        <div class="stats-count">
+          <h3>803K</h3>
+          <p>Likes</p>
+        </div>
+        <div class="stats-count">
+          <h3>1.4K</h3>
+          <p>Photos</p>
+        </div>
+      </div>
     </main>
   </body>
 </html>
-
-<!-- <div class="attribution">
-  Challenge by
-  <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-    >Frontend Mentor</a
-  >. Coded by <a href="#">Your Name Here</a>.
-</div> -->
