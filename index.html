@@ -3,40 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Profile card component</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Blurry loading</title>
   </head>
   <body>
-    <main class="card-container">
-      <section class="profile-data">
-        <picture>
-          <img src="./images/image-victor.jpg" alt="victor's avatar" />
-        </picture>
-        <h1>Victor Crest <span>26</span></h1>
-        <h2>London</h2>
-      </section>
-      <div class="profile-stats">
-        <div class="stats-count">
-          <h3>80K</h3>
-          <p>Followers</p>
-        </div>
-        <div class="stats-count">
-          <h3>803K</h3>
-          <p>Likes</p>
-        </div>
-        <div class="stats-count">
-          <h3>1.4K</h3>
-          <p>Photos</p>
-        </div>
-      </div>
-    </main>
+    <section class="bg"></section>
+    <div class="loading-text">0%</div>
+    <script src="script.js"></script>
   </body>
 </html>
